@@ -21,5 +21,5 @@ Number 1, change the files.
 Number 2, run the following command
 
 ```bash
-aws --profile=perceptionz s3 sync . s3://static.itinerantfoodie.com --region ap-northeast-2 --exclude '.DS_Store' --exclude 'node_modules/*' --exclude '.git/*' --excliude '.gitignore' --acl public-read
+aws --profile=perceptionz s3 sync . s3://static.itinerantfoodie.com --region ap-northeast-2 --exclude '.DS_Store' --exclude 'node_modules/*' --exclude '.git/*' --exclude '.gitignore' --acl public-read
 ```
